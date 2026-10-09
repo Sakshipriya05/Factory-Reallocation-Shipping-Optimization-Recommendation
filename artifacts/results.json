@@ -1,0 +1,677 @@
+{
+ "rows": 10194,
+ "clean_rows": 10122,
+ "outliers": 72,
+ "orders": 8549,
+ "customers": 5044,
+ "date_min": "2024-01-02",
+ "date_max": "2025-12-31",
+ "sales": 141783.63,
+ "gp": 93442.79999999999,
+ "margin": 0.6590521063679917,
+ "units": 38654,
+ "canada_share": 0.019619383951343928,
+ "division": [
+  {
+   "Division": "Chocolate",
+   "rows": 9844,
+   "sales": 131692.9,
+   "gp": 88824.62,
+   "margin": 0.674
+  },
+  {
+   "Division": "Other",
+   "rows": 310,
+   "sales": 9663.25,
+   "gp": 4333.45,
+   "margin": 0.448
+  },
+  {
+   "Division": "Sugar",
+   "rows": 40,
+   "sales": 427.48,
+   "gp": 284.73,
+   "margin": 0.666
+  }
+ ],
+ "region": [
+  {
+   "Region": "Atlantic",
+   "rows": 2986,
+   "sales": 41197.24,
+   "gp": 26973.7,
+   "lead": 4.239,
+   "dist": 2336.814
+  },
+  {
+   "Region": "Gulf",
+   "rows": 1620,
+   "sales": 22247.26,
+   "gp": 14700.67,
+   "lead": 4.298,
+   "dist": 1730.826
+  },
+  {
+   "Region": "Interior",
+   "rows": 2335,
+   "sales": 32037.6,
+   "gp": 21282.49,
+   "lead": 4.382,
+   "dist": 1627.806
+  },
+  {
+   "Region": "Pacific",
+   "rows": 3253,
+   "sales": 46301.53,
+   "gp": 30485.94,
+   "lead": 4.274,
+   "dist": 2042.822
+  }
+ ],
+ "shipmode": [
+  {
+   "Ship Mode": "First Class",
+   "rows": 1548,
+   "lead": 2.548,
+   "sd": 0.888,
+   "share": 0.152
+  },
+  {
+   "Ship Mode": "Same Day",
+   "rows": 547,
+   "lead": 0.384,
+   "sd": 0.533,
+   "share": 0.054
+  },
+  {
+   "Ship Mode": "Second Class",
+   "rows": 1979,
+   "lead": 3.572,
+   "sd": 1.28,
+   "share": 0.194
+  },
+  {
+   "Ship Mode": "Standard Class",
+   "rows": 6120,
+   "lead": 5.316,
+   "sd": 1.128,
+   "share": 0.6
+  }
+ ],
+ "factory": [
+  {
+   "Factory": "Lot's O' Nuts",
+   "rows": 5692,
+   "units": 21412,
+   "sales": 76340.15,
+   "gp": 52771.05,
+   "lead": 4.263,
+   "dist": 2087.486
+  },
+  {
+   "Factory": "Secret Factory",
+   "rows": 217,
+   "units": 884,
+   "sales": 8587.5,
+   "gp": 4344.7,
+   "lead": 4.092,
+   "dist": 1379.49
+  },
+  {
+   "Factory": "Sugar Shack",
+   "rows": 33,
+   "units": 107,
+   "sales": 220.98,
+   "gp": 121.23,
+   "lead": 4.667,
+   "dist": 1713.732
+  },
+  {
+   "Factory": "The Other Factory",
+   "rows": 100,
+   "units": 388,
+   "sales": 1282.25,
+   "gp": 152.25,
+   "lead": 3.98,
+   "dist": 1600.669
+  },
+  {
+   "Factory": "Wicked Choccy's",
+   "rows": 4152,
+   "units": 15863,
+   "sales": 55352.75,
+   "gp": 36053.57,
+   "lead": 4.347,
+   "dist": 1885.826
+  }
+ ],
+ "product": [
+  {
+   "Product Name": "Wonka Bar - Triple Dazzle Caramel",
+   "rows": 2015,
+   "sales": 28485.0,
+   "gp": 18610.2,
+   "margin": 0.653
+  },
+  {
+   "Product Name": "Wonka Bar -Scrumdiddlyumptious",
+   "rows": 2064,
+   "sales": 27874.8,
+   "gp": 19357.5,
+   "margin": 0.694
+  },
+  {
+   "Product Name": "Wonka Bar - Milk Chocolate",
+   "rows": 2137,
+   "sales": 26867.75,
+   "gp": 17443.37,
+   "margin": 0.649
+  },
+  {
+   "Product Name": "Wonka Bar - Fudge Mallows",
+   "rows": 1818,
+   "sales": 24890.4,
+   "gp": 16593.6,
+   "margin": 0.667
+  },
+  {
+   "Product Name": "Wonka Bar - Nutty Crunch Surprise",
+   "rows": 1810,
+   "sales": 23574.95,
+   "gp": 16819.95,
+   "margin": 0.713
+  },
+  {
+   "Product Name": "Lickable Wallpaper",
+   "rows": 94,
+   "sales": 7860.0,
+   "gp": 3930.0,
+   "margin": 0.5
+  },
+  {
+   "Product Name": "Kazookles",
+   "rows": 96,
+   "sales": 1205.75,
+   "gp": 92.75,
+   "margin": 0.077
+  },
+  {
+   "Product Name": "Wonka Gum",
+   "rows": 120,
+   "sales": 597.5,
+   "gp": 310.7,
+   "margin": 0.52
+  },
+  {
+   "Product Name": "Everlasting Gobstopper",
+   "rows": 3,
+   "sales": 130.0,
+   "gp": 104.0,
+   "margin": 0.8
+  },
+  {
+   "Product Name": "Fizzy Lifting Drinks",
+   "rows": 6,
+   "sales": 78.75,
+   "gp": 47.25,
+   "margin": 0.6
+  },
+  {
+   "Product Name": "Hair Toffee",
+   "rows": 4,
+   "sales": 76.5,
+   "gp": 59.5,
+   "margin": 0.778
+  },
+  {
+   "Product Name": "SweeTARTS",
+   "rows": 10,
+   "sales": 61.5,
+   "gp": 28.7,
+   "margin": 0.467
+  },
+  {
+   "Product Name": "Laffy Taffy",
+   "rows": 10,
+   "sales": 53.73,
+   "gp": 33.48,
+   "margin": 0.623
+  },
+  {
+   "Product Name": "Nerds",
+   "rows": 4,
+   "sales": 15.0,
+   "gp": 7.0,
+   "margin": 0.467
+  },
+  {
+   "Product Name": "Fun Dip",
+   "rows": 3,
+   "sales": 12.0,
+   "gp": 4.8,
+   "margin": 0.4
+  }
+ ],
+ "raw_gap_min": 904,
+ "raw_gap_max": 1642,
+ "corrected_mean": 4.292328820875024,
+ "corrected_max": 11,
+ "dist_slope_days_per_1000km": 0.00845163716039693,
+ "dist_slope_ci": [
+  -0.011669455799823258,
+  0.028572730120617118
+ ],
+ "dist_slope_p": 0.4103705737349956,
+ "corr_dist_lead_raw": 0.0071202374142850956,
+ "var_explained_by_mode": 0.6227125404978995,
+ "kw_factory_p": 0.7392723931985576,
+ "kw_region_p": 0.038574079849930415,
+ "kw_mode_p": 0.0,
+ "metrics": {
+  "Linear Regression": {
+   "RMSE": 1.1093206387994592,
+   "MAE": 0.9296002725040715,
+   "R2": 0.6176374627573158,
+   "CV_RMSE": 1.1040870471545197
+  },
+  "Random Forest": {
+   "RMSE": 1.0997478409627128,
+   "MAE": 0.9067502754863286,
+   "R2": 0.6242081260831763,
+   "CV_RMSE": 1.0941616683060669
+  },
+  "Gradient Boosting": {
+   "RMSE": 1.096485520558296,
+   "MAE": 0.9186962600073515,
+   "R2": 0.626434336678795,
+   "CV_RMSE": 1.1028800509288192
+  }
+ },
+ "temporal": {
+  "Linear Regression": {
+   "RMSE": 1.196321792251921,
+   "MAE": 0.9405253194550265,
+   "R2": 0.580011137682957,
+   "CV_RMSE": 1.122165857844167
+  },
+  "Random Forest": {
+   "RMSE": 1.2815372408094636,
+   "MAE": 0.9917439783516475,
+   "R2": 0.5180475328697558,
+   "CV_RMSE": 1.168782829838324
+  },
+  "Gradient Boosting": {
+   "RMSE": 1.2767548678790768,
+   "MAE": 0.9822737463673489,
+   "R2": 0.5216378707097529,
+   "CV_RMSE": 1.156088098401889
+  }
+ },
+ "chosen": "Linear Regression",
+ "naive_rmse": 1.1080940686124021,
+ "mean_rmse": 1.7942239275704401,
+ "importance": {
+  "c__Ship Mode_Same Day": -2.574,
+  "c__Ship Mode_Standard Class": 2.36,
+  "c__Ship Mode_Second Class": 0.617,
+  "c__Ship Mode_First Class": -0.404,
+  "c__Factory_The Other Factory": -0.149,
+  "c__Factory_Sugar Shack": 0.115,
+  "c__Factory_Secret Factory": 0.048,
+  "c__Region_Atlantic": -0.043
+ },
+ "cluster_summary": [
+  {
+   "cluster_label": "Consistently slow",
+   "routes": 12,
+   "orders": 4102,
+   "excess": 0.066,
+   "sd": 1.07,
+   "dist": 2791.025
+  },
+  {
+   "cluster_label": "Fast / reliable",
+   "routes": 9,
+   "orders": 677,
+   "excess": -0.057,
+   "sd": 0.576,
+   "dist": 1655.775
+  },
+  {
+   "cluster_label": "Typical",
+   "routes": 11,
+   "orders": 5061,
+   "excess": -0.027,
+   "sd": 1.123,
+   "dist": 1149.825
+  }
+ ],
+ "slow_routes": [
+  {
+   "Factory": "Wicked Choccy's",
+   "Region": "Interior",
+   "Ship Mode": "Second Class",
+   "n": 177,
+   "lead": 3.82,
+   "excess_lead": 0.25
+  },
+  {
+   "Factory": "Lot's O' Nuts",
+   "Region": "Interior",
+   "Ship Mode": "First Class",
+   "n": 165,
+   "lead": 2.75,
+   "excess_lead": 0.2
+  },
+  {
+   "Factory": "Wicked Choccy's",
+   "Region": "Pacific",
+   "Ship Mode": "Same Day",
+   "n": 76,
+   "lead": 0.55,
+   "excess_lead": 0.17
+  },
+  {
+   "Factory": "Wicked Choccy's",
+   "Region": "Interior",
+   "Ship Mode": "First Class",
+   "n": 124,
+   "lead": 2.69,
+   "excess_lead": 0.14
+  },
+  {
+   "Factory": "Wicked Choccy's",
+   "Region": "Pacific",
+   "Ship Mode": "Standard Class",
+   "n": 815,
+   "lead": 5.36,
+   "excess_lead": 0.05
+  },
+  {
+   "Factory": "Lot's O' Nuts",
+   "Region": "Atlantic",
+   "Ship Mode": "Second Class",
+   "n": 304,
+   "lead": 3.6,
+   "excess_lead": 0.02
+  }
+ ],
+ "congested": [
+  {
+   "Product Name": "Wonka Bar - Triple Dazzle Caramel",
+   "Region": "Pacific",
+   "orders": 676,
+   "excess_lead": 0.001
+  },
+  {
+   "Product Name": "Wonka Bar -Scrumdiddlyumptious",
+   "Region": "Pacific",
+   "orders": 672,
+   "excess_lead": 0.003
+  },
+  {
+   "Product Name": "Wonka Bar - Milk Chocolate",
+   "Region": "Pacific",
+   "orders": 666,
+   "excess_lead": 0.084
+  },
+  {
+   "Product Name": "Wonka Bar - Fudge Mallows",
+   "Region": "Pacific",
+   "orders": 569,
+   "excess_lead": 0.053
+  },
+  {
+   "Product Name": "Wonka Bar - Milk Chocolate",
+   "Region": "Interior",
+   "orders": 499,
+   "excess_lead": 0.126
+  },
+  {
+   "Product Name": "Wonka Bar - Nutty Crunch Surprise",
+   "Region": "Atlantic",
+   "orders": 490,
+   "excess_lead": 0.059
+  },
+  {
+   "Product Name": "Wonka Bar - Nutty Crunch Surprise",
+   "Region": "Interior",
+   "orders": 452,
+   "excess_lead": 0.022
+  },
+  {
+   "Product Name": "Wonka Bar - Triple Dazzle Caramel",
+   "Region": "Interior",
+   "orders": 449,
+   "excess_lead": 0.067
+  },
+  {
+   "Product Name": "Wonka Bar - Milk Chocolate",
+   "Region": "Gulf",
+   "orders": 333,
+   "excess_lead": 0.04
+  }
+ ],
+ "kpis": {
+  "coverage_scopes": 17.307692307692307,
+  "coverage_volume": 39.198410415958584,
+  "products_covered": 6.0,
+  "products_total": 15.0,
+  "lead_reduction_pct": 0.47583631854940134,
+  "avg_dist_reduction_km": 2191.6951578808785,
+  "confidence": 58.123993444387466,
+  "net_profit_delta": 2775.6720522189144,
+  "profit_stability": 88.88888888888889
+ },
+ "load_shift": [
+  {
+   "Factory": "Lot's O' Nuts",
+   "units_before": 21412,
+   "units_after": 17231,
+   "change_pct": -19.5
+  },
+  {
+   "Factory": "Wicked Choccy's",
+   "units_before": 15807,
+   "units_after": 20093,
+   "change_pct": 27.1
+  },
+  {
+   "Factory": "Sugar Shack",
+   "units_before": 107,
+   "units_after": 107,
+   "change_pct": 0.0
+  },
+  {
+   "Factory": "Secret Factory",
+   "units_before": 535,
+   "units_after": 535,
+   "change_pct": 0.0
+  },
+  {
+   "Factory": "The Other Factory",
+   "units_before": 388,
+   "units_after": 283,
+   "change_pct": -27.1
+  }
+ ],
+ "rec_n": 9,
+ "rec_total": 52,
+ "rec_flags": {
+  "Insufficient data": 29,
+  "Keep current": 14,
+  "OK": 9
+ },
+ "recs": [
+  {
+   "Product": "Kazookles",
+   "Region": "Pacific",
+   "current_factory": "The Other Factory",
+   "recommended_factory": "Lot's O' Nuts",
+   "orders": 30,
+   "lead_change_pct": 2.47,
+   "distance_change_km": -1584.88,
+   "profit_delta": 7.1,
+   "profit_pct": 27.04,
+   "confidence": 59.15
+  },
+  {
+   "Product": "Wonka Bar - Fudge Mallows",
+   "Region": "Atlantic",
+   "current_factory": "Lot's O' Nuts",
+   "recommended_factory": "Wicked Choccy's",
+   "orders": 548,
+   "lead_change_pct": 0.18,
+   "distance_change_km": -2023.11,
+   "profit_delta": 336.74,
+   "profit_pct": 6.99,
+   "confidence": 58.33
+  },
+  {
+   "Product": "Wonka Bar - Fudge Mallows",
+   "Region": "Gulf",
+   "current_factory": "Lot's O' Nuts",
+   "recommended_factory": "Wicked Choccy's",
+   "orders": 291,
+   "lead_change_pct": 0.14,
+   "distance_change_km": -2117.51,
+   "profit_delta": 191.08,
+   "profit_pct": 7.36,
+   "confidence": 55.77
+  },
+  {
+   "Product": "Wonka Bar - Milk Chocolate",
+   "Region": "Pacific",
+   "current_factory": "Wicked Choccy's",
+   "recommended_factory": "Lot's O' Nuts",
+   "orders": 666,
+   "lead_change_pct": -1.75,
+   "distance_change_km": -2428.05,
+   "profit_delta": 565.23,
+   "profit_pct": 9.9,
+   "confidence": 59.41
+  },
+  {
+   "Product": "Wonka Bar - Nutty Crunch Surprise",
+   "Region": "Atlantic",
+   "current_factory": "Lot's O' Nuts",
+   "recommended_factory": "Wicked Choccy's",
+   "orders": 490,
+   "lead_change_pct": 0.17,
+   "distance_change_km": -2051.16,
+   "profit_delta": 325.57,
+   "profit_pct": 7.04,
+   "confidence": 58.29
+  },
+  {
+   "Product": "Wonka Bar - Nutty Crunch Surprise",
+   "Region": "Gulf",
+   "current_factory": "Lot's O' Nuts",
+   "recommended_factory": "Wicked Choccy's",
+   "orders": 296,
+   "lead_change_pct": 0.14,
+   "distance_change_km": -2125.76,
+   "profit_delta": 198.83,
+   "profit_pct": 7.34,
+   "confidence": 55.83
+  },
+  {
+   "Product": "Wonka Bar - Triple Dazzle Caramel",
+   "Region": "Pacific",
+   "current_factory": "Wicked Choccy's",
+   "recommended_factory": "Lot's O' Nuts",
+   "orders": 676,
+   "lead_change_pct": -1.77,
+   "distance_change_km": -2445.08,
+   "profit_delta": 533.06,
+   "profit_pct": 8.38,
+   "confidence": 59.41
+  },
+  {
+   "Product": "Wonka Bar -Scrumdiddlyumptious",
+   "Region": "Atlantic",
+   "current_factory": "Lot's O' Nuts",
+   "recommended_factory": "Wicked Choccy's",
+   "orders": 623,
+   "lead_change_pct": 0.18,
+   "distance_change_km": -2036.19,
+   "profit_delta": 398.6,
+   "profit_pct": 6.79,
+   "confidence": 58.26
+  },
+  {
+   "Product": "Wonka Bar -Scrumdiddlyumptious",
+   "Region": "Gulf",
+   "current_factory": "Lot's O' Nuts",
+   "recommended_factory": "Wicked Choccy's",
+   "orders": 310,
+   "lead_change_pct": 0.13,
+   "distance_change_km": -2155.35,
+   "profit_delta": 219.47,
+   "profit_pct": 7.3,
+   "confidence": 55.96
+  }
+ ],
+ "network_dist_before": 1988.3326272610598,
+ "network_dist_after": 1137.3780757424017,
+ "network_dist_change_pct": -42.797394150839494,
+ "moved_dist_before": 3161.440409079937,
+ "moved_dist_after": 969.7452511990589,
+ "moved_orders_share": 38.826318909306465,
+ "sensitivity": [
+  {
+   "logistics_cost": 0.05,
+   "cost_premium": 0.0,
+   "n_reassign": 11,
+   "net_profit": 1676.2088010037735
+  },
+  {
+   "logistics_cost": 0.05,
+   "cost_premium": 0.03,
+   "n_reassign": 8,
+   "net_profit": 1129.008649775943
+  },
+  {
+   "logistics_cost": 0.05,
+   "cost_premium": 0.08,
+   "n_reassign": 8,
+   "net_profit": 278.0816497759429
+  },
+  {
+   "logistics_cost": 0.1,
+   "cost_premium": 0.0,
+   "n_reassign": 12,
+   "net_profit": 3391.2504571017657
+  },
+  {
+   "logistics_cost": 0.1,
+   "cost_premium": 0.03,
+   "n_reassign": 9,
+   "net_profit": 2775.6720522189144
+  },
+  {
+   "logistics_cost": 0.1,
+   "cost_premium": 0.08,
+   "n_reassign": 8,
+   "net_profit": 1917.6464995518859
+  },
+  {
+   "logistics_cost": 0.2,
+   "cost_premium": 0.0,
+   "n_reassign": 13,
+   "net_profit": 6843.492646454446
+  },
+  {
+   "logistics_cost": 0.2,
+   "cost_premium": 0.03,
+   "n_reassign": 10,
+   "net_profit": 6126.136496640304
+  },
+  {
+   "logistics_cost": 0.2,
+   "cost_premium": 0.08,
+   "n_reassign": 9,
+   "net_profit": 5204.67330443783
+  }
+ ]
+}
